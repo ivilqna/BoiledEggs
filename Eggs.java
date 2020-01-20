@@ -64,7 +64,7 @@ public class Eggs extends Egg implements Steps{
 		{
 
 		if(minutes < 4 && minutes < 5 ) {
-		System.out.println("Rezultat:qicata stavat rohki-jultukut i golqma chast ot beltula sa techni");
+		System.out.println("Rezultat:qicata stavat rohki-jultukut i golqma chast ot beltuka sa techni");
 
 		}else if(minutes >=5) {
 		System.out.println("Rezultat:qicata stavat tvurdi");
