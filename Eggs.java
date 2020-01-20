@@ -12,22 +12,22 @@ public class Eggs extends Egg implements Steps{
 
 	public void choosing(int eggCount) {
 		
-	System.out.println("Яйцата се измиват предварително и се заливат със студена "
-	+ "\nвода, така, че водата да ги покрие. По този начин"
-	+ "\nсе намалява опасността от спукване.\n");
+	System.out.println("Qicata se izmivat predvaritelno i se zalivat sys studena "
+	+ "\nvoda, taka,che vodata da gi pokrie.Po tozi nachin"
+	+ "\nse namalqva opasnostta ot spukvane.\n");
 
 
-	System.out.println("Взимаме "+ eggCount +" яйца измиваме ги с вода");
+	System.out.println("Vzimame "+ eggCount +" qica izmivame gi s voda");
 
 	if(eggCount >= 4) { 
 
-	System.out.println("\nАко има 4 яйца  или повече  се слагат в големия съд.");
+	System.out.println("\nAko ima 4 qica ili poveche se slagat v golemiq sud.");
 
 	counter++; 
 
 	}else { 
 
-	System.out.println("\nИма по-малко от 4 яйца се слагат в малкия ");
+	System.out.println("\nIma po-malko ot 4 qica se slagat v malkiq");
 
 	counter--;
 	
@@ -48,11 +48,11 @@ public class Eggs extends Egg implements Steps{
 
 
 
-		System.out.println("\nСлагаме " + eggCount +" яйца в тенджарата");
+		System.out.println("\nSlagame " + eggCount +" qicata v tendjarata");
 
 		}else {
 
-		System.out.println("\nСлагаме " + eggCount +" яйца в джезвето,канче");
+		System.out.println("\nSlagame " + eggCount +" qicata v djezveto, kanche");
 
 		}
 
@@ -60,24 +60,24 @@ public class Eggs extends Egg implements Steps{
 
 		public void cookertheEggs (Eggs b, int minutes, int eggCount) {
 
-		System.out.println("\nЗапочват да се варят яйцата за "+ minutes + " минути");
+		System.out.println("\nZapochvat da se varqt qicata "+ minutes + " minuti");
 		{
 
 		if(minutes < 4 && minutes < 5 ) {
-		System.out.println("Резултат:яйцата стават рохки – жълтъкът и голяма част от белтъка са течни");
+		System.out.println("Rezultat:qicata stavat rohki-jultukut i golqma chast ot beltula sa techni");
 
 		}else if(minutes >=5) {
-		System.out.println("Резултат:яйцата стават твърди");
+		System.out.println("Rezultat:qicata stavat tvurdi");
 		}else {
-		System.out.println("Резултат:жълтъкът все още е течен, а белтъкът твърд");
+		System.out.println("Rezultat:jultukut vse oshte e techen, a beltuka tvurd");
 		}
 		}
 		 
 
-		System.out.println("\nСлед като се свалят от огъня, "
-				+ "\nяйцата се заливат със студена вода"
-				+ "\nи се оставят да престоят няколко минути. "
-				+ "\nТака се обелват по-лесно. ");
+		System.out.println("\nSled kato se svalqt ot ogunq, "
+				+ "\nqicata se zalivat sys studena voda"
+				+ "\ni se ostavqt da prestoqt nqkolko minuti. "
+				+ "\nTaka se obelvat po-lesno. ");
 
 
 		}
