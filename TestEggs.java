@@ -4,9 +4,9 @@ public class TestEggs {
 
 	public static void main(String[] args) {
 
-	int totalEggs = 8; //Колко яйца ще вариш
+	int totalEggs = 8; //Kolko qica shte varish
 
-	int minutes = 2; //Избери време за варене
+	int minutes = 2; //Izberi vreme za varene
 
 
 	Eggs b = new Eggs();
